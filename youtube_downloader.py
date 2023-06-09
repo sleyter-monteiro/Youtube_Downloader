@@ -38,8 +38,8 @@ def itag_youtube(streams):
     itag = streams[res_num_int-1].itag
     return itag
 
-url = "https://www.youtube.com/watch?v=E92LE_B7VXs"
-# url = url_youtube()
+
+url = url_youtube()
     
 
 def telechargement(stream, chunk, bytes_remaining):
